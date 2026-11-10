@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberTech Store - Soporte y Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="logo">CyberTech</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-lista">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="soporte.html">Soporte</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="titulo-seccion">Tiempos de Garantía</h2>
+
+        <table class="tabla-estilizada">
+            <thead>
+                <tr>
+                    <th>Categoría de Producto</th>
+                    <th>Tiempo de Garantía</th>
+                    <th>Cobertura</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procesadores</td>
+                    <td>36 Meses</td>
+                    <td>Fallas de fábrica y funcionamiento</td>
+                </tr>
+                <tr>
+                    <td>Tarjetas Gráficas y Placas Base</td>
+                    <td>24 Meses</td>
+                    <td>Fallas electrónicas y de fábrica</td>
+                </tr>
+                <tr>
+                    <td>Periféricos (Mouse, Teclados)</td>
+                    <td>12 Meses</td>
+                    <td>Defectos de fábrica y botones</td>
+                </tr>
+                <tr>
+                    <td>Monitores</td>
+                    <td>24 Meses</td>
+                    <td>Pixeles muertos y panel de pantalla</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="titulo-seccion">Formulario de Soporte Técnico</h2>
+
+        <form class="formulario-contacto">
+            <div class="grupo-campo">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="serie">Número de Serie del Producto:</label>
+                <input type="text" id="serie" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="mensaje">Mensaje o Descripción del Problema:</label>
+                <textarea id="mensaje" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CyberTech Store. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
